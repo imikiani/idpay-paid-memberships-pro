@@ -1,7 +1,7 @@
 === IDPay Payment Gateway for Paid Memberships Pro ===
 Contributors: imikiani
 Tags: idpay, gateway, payment, paid memberships pro, membership, memberships, member, members, ecommerce, e-commerce, restrict access, restrict content, directory
-Stable tag: 1.0
+Stable tag: 1.0.1
 Tested up to: 5.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
