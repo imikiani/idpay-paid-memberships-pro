@@ -31,3 +31,6 @@ Thank you so much for using IDPay Payment Gateway.
 
 = 1.0, May 05, 2019 =
 * First release.
+
+= 1.0.1, May 05, 2019 =
+* Update Plugin header.
