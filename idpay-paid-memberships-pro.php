@@ -5,6 +5,10 @@
  * Author: IDPay
  * Version: 1.0
  * License: GPL v2.0.
+ * Author URI: https://idpay.ir
+ * Author Email: info@idpay.ir
+ * Text Domain: idpay-paid-memberships-pro
+ * Domain Path: /languages/
  */
 
 /**
