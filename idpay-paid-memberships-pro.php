@@ -53,6 +53,11 @@ function load_idpay_pmpro_class() {
 					'pmpro_payment_option_fields',
 				], 10, 2 );
 
+				// Add some currencies
+				add_filter( 'pmpro_currencies', [
+					'PMProGateway_IDPay',
+					'pmpro_currencies',
+				] );
 
 				//code to add at checkout if IDPay is the current gateway
 				$gateway = pmpro_getOption( 'gateway' );
@@ -77,6 +82,29 @@ function load_idpay_pmpro_class() {
 					'PMProGateway_IDPay',
 					'pmpro_wp_ajax_idpay_ins',
 				] );
+			}
+
+			/**
+			 * Adds Iranian currencies
+			 *
+			 * @param $currencies
+			 *
+			 * @return mixed
+			 */
+			public static function pmpro_currencies( $currencies ) {
+
+				$currencies['IRT'] = array(
+					'name'     => __( 'Iranian Toman', 'idpay-paid-memberships-pro' ),
+					'symbol'   => __( 'Toman', 'idpay-paid-memberships-pro' ),
+					'position' => 'right',
+				);
+				$currencies['IRR'] = array(
+					'name'     => __( 'Iranian Rial', 'idpay-paid-memberships-pro' ),
+					'symbol'   => ' &#65020;',
+					'position' => 'right',
+				);
+
+				return $currencies;
 			}
 
 			/**

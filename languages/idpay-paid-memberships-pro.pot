@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-05-13T10:32:18+00:00\n"
+"POT-Creation-Date: 2019-05-19T09:27:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.2.0\n"
 "X-Domain: idpay-paid-memberships-pro\n"
@@ -30,42 +30,54 @@ msgstr ""
 msgid "https://idpay.ir"
 msgstr ""
 
-#: idpay-paid-memberships-pro.php:162
+#: idpay-paid-memberships-pro.php:97
+msgid "Iranian Toman"
+msgstr ""
+
+#: idpay-paid-memberships-pro.php:98
+msgid "Toman"
+msgstr ""
+
+#: idpay-paid-memberships-pro.php:102
+msgid "Iranian Rial"
+msgstr ""
+
+#: idpay-paid-memberships-pro.php:190
 msgid "IDPay Configuration"
 msgstr ""
 
-#: idpay-paid-memberships-pro.php:171
+#: idpay-paid-memberships-pro.php:199
 msgid "API Key"
 msgstr ""
 
-#: idpay-paid-memberships-pro.php:271
+#: idpay-paid-memberships-pro.php:299
 msgid "An error occurred while creating a transaction. error status: %s, error code: %s, error message: %s"
 msgstr ""
 
-#: idpay-paid-memberships-pro.php:282
+#: idpay-paid-memberships-pro.php:310
 msgid "The oid parameter is not set."
 msgstr ""
 
-#: idpay-paid-memberships-pro.php:294
+#: idpay-paid-memberships-pro.php:322
 msgid "The oid parameter is not correct."
 msgstr ""
 
-#: idpay-paid-memberships-pro.php:300
+#: idpay-paid-memberships-pro.php:328
 msgid "This order does not belong to you."
 msgstr ""
 
-#: idpay-paid-memberships-pro.php:353
+#: idpay-paid-memberships-pro.php:381
 msgid "Payment succeeded. track_id: %s, status: %s, card_no: %s"
 msgstr ""
 
-#: idpay-paid-memberships-pro.php:361
+#: idpay-paid-memberships-pro.php:389
 msgid "Payment failed. track_id: %s, status: %s, card_no: %s"
 msgstr ""
 
-#: idpay-paid-memberships-pro.php:371
+#: idpay-paid-memberships-pro.php:399
 msgid "An error occurred while verifying a transaction. error status: %s, error code: %s, error message: %s"
 msgstr ""
 
-#: idpay-paid-memberships-pro.php:379
+#: idpay-paid-memberships-pro.php:407
 msgid "Payment failed. track_id: %s, status: %s"
 msgstr ""
