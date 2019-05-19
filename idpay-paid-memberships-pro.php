@@ -3,7 +3,7 @@
  * Plugin Name: IDPay Paid Memberships Pro
  * Description: IDPay payment gateway for Paid Memberships Pro
  * Author: IDPay
- * Version: 1.0.2
+ * Version: 1.0.3
  * License: GPL v2.0.
  * Author URI: https://idpay.ir
  * Author Email: info@idpay.ir

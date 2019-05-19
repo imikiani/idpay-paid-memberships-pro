@@ -1,7 +1,7 @@
 === IDPay Payment Gateway for Paid Memberships Pro ===
 Contributors: imikiani
 Tags: IDPay, gateway, paid memberships pro, memberships, restrict content
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Tested up to: 5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -28,6 +28,9 @@ Also there is a complete documentation [here](https://blog.idpay.ir/helps/168) w
 Thank you so much for using IDPay Payment Gateway.
 
 == Changelog ==
+
+= 1.0.3, May 19, 2019 =
+* Add Iranian currencies to the currencies' settings.
 
 = 1.0.2, May 13, 2019 =
 * Try to connect to the gateway several times.
